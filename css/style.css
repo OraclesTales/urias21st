@@ -3,25 +3,21 @@
     src: url('fonts/a_star_is_born/ASTAB___.woff2') format('woff2');
     font-weight: normal;
 }
-
 @font-face {
     font-family: "artpost";
     src: url('fonts/art_post/artpost.woff2') format('woff2');
     font-weight: normal;
 }
-
 @font-face {
     font-family: "artpost";
     src: url('fonts/art_post/artpostblack.woff2') format('woff2');
     font-weight: bold;
 }
-
 @font-face {
     font-family: "blackcasper";
     src: url('fonts/blackcasper/BlackCasper.woff2') format('woff2');
     font-weight: normal;
 }
-
 @font-face {
     font-family: "arcade";
     src: url('fonts/arcade/ARCADE.woff2') format('woff2');
@@ -75,15 +71,11 @@ body{
 .container{
     background-image: url('images/texture.png');
     background-size: cover;
-    max-width: 600px; /* or whatever breakpoint feels right */
+    max-width: 575px; /* or whatever breakpoint feels right */
     width: 100%;
     margin-top: 50px;
     margin-left: 0 auto;
     margin-right: 0 auto; /* keeps it centered */
-}
-.activity{
-    color:#242346;
-    font-size: 30px;
 }
 nav a, a{
     color: #3B7CBF;
@@ -101,7 +93,7 @@ a{
     text-shadow: 3px 3px 5px rgb(214, 206, 255);
 }
 a:hover{
-    color: #78bcff;
+    color: #ff66b0;
 
 }
 text{
