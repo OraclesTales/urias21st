@@ -39,6 +39,11 @@
     font-weight: normal;
 }
 
+@font-face{
+    font-family: "love";
+    src: url('fonts/Love.woff');
+}
+
 /* headings */
 h1, h2, h5{
     color: #3B7CBF;
@@ -49,8 +54,8 @@ h3, h4, h6{
 }
 h1 { font-family: "artpost"; }
 h2 {font-family: "spacetime";
-    font-size: 100px;
-    text-shadow: 5px 10px 8px rgba(255, 255, 255);
+    font-size: 75px;
+    text-shadow: 5px 5px 8px rgba(255, 255, 255);
     margin-inline: 0 auto;
     line-height: 0.7;
 }
@@ -60,22 +65,23 @@ h5 { font-family: "artpost"; font-size: 30px; }
 h6 { font-family: "spacetime"; font-size: 20px; }
 
 /* paragraph text */
-p { font-family: "arcade"; font-size: 30px; margin-bottom: 0; line-height: 0.8;}
+p { font-family: "love"; font-size: 30px;}
 
 /*elements*/
 body{
     text-align: center;
-    background-image: url('images/gothiccity.jpg');
-    background-size: fill;
-}
-.container{
     background-image: url('images/texture.png');
     background-size: cover;
+}
+.container{
     max-width: 575px; /* or whatever breakpoint feels right */
-    width: 100%;
+    margin: 10px auto;
     margin-top: 50px;
-    margin-left: 0 auto;
-    margin-right: 0 auto; /* keeps it centered */
+    float: center;
+}
+.row{
+    margin: 0 auto;
+    float: center;
 }
 nav a, a{
     color: #3B7CBF;
@@ -88,9 +94,9 @@ nav a, a{
 }
 a{
     color:black;
-    font-family: "imweird";
+    font-family: "arcade";
     text-decoration:underline;
-    text-shadow: 3px 3px 5px rgb(214, 206, 255);
+    text-shadow: 3px 3px 5px rgb(233, 229, 255);
 }
 a:hover{
     color: #ff66b0;
