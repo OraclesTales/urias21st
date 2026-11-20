@@ -40,67 +40,70 @@
 }
 
 @font-face{
-    font-family: "love";
-    src: url('fonts/Love.woff');
+    font-family: "icecream";
+    src: url('fonts/icecream.woff');
 }
 
 /* headings */
 h1, h2, h5{
-    color: #3B7CBF;
+    color: #2165a8;
     text-shadow: 0px 0px 10px rgb(255, 255, 255);
 }
 h3, h4, h6{
     color: #242346;
 }
-h1 { font-family: "artpost"; }
+h1 { font-family: "artpost"; font-size: 25px;}
 h2 {font-family: "spacetime";
     font-size: 75px;
-    text-shadow: 5px 5px 8px rgba(255, 255, 255);
     margin-inline: 0 auto;
     line-height: 0.7;
 }
-h3 { font-family: "butler"; font-size: 30px;}
+h3 { font-family: "butler"; font-size: 25px;}
 h4 { font-family: "newromantics"; font-size: 30px; letter-spacing: 3px;}
 h5 { font-family: "artpost"; font-size: 30px; }
-h6 { font-family: "spacetime"; font-size: 20px; }
+h6 { font-family: "spacetime"; font-size: 30px; }
 
 /* paragraph text */
-p { font-family: "love"; font-size: 30px;}
+p { font-family: "icecream"; font-size: 20px;}
 
 /*elements*/
 body{
     text-align: center;
-    background-image: url('images/texture.png');
-    background-size: cover;
+    background-color: #5c92c9;
+    
 }
 .container{
-    max-width: 575px; /* or whatever breakpoint feels right */
+    max-width: 375px; /* or whatever breakpoint feels right */
     margin: 10px auto;
     margin-top: 50px;
     float: center;
+    background-image: url('images/texture.png');
+    background-size: cover;
+    box-shadow: 0px 0px 10px #ffbba6
 }
 .row{
     margin: 0 auto;
     float: center;
 }
 nav a, a{
-    color: #3B7CBF;
+    color: #2165a8;
     font-family: "starborn";
-    font-size: 25px;
-    padding: 0px 30px;
+    font-size: 24px;
+    padding: 0px 30px 0px 30px;
     line-height: 50px;
     text-decoration: none;
     text-shadow: 0px 0px 10px rgb(255, 255, 255);
 }
 a{
-    color:black;
+    color: #242346;
     font-family: "arcade";
     text-decoration:underline;
-    text-shadow: 3px 3px 5px rgb(233, 229, 255);
+    text-shadow: 3px 3px 5px rgb(248, 247, 255);
+    text-align:center;
 }
 a:hover{
-    color: #ff66b0;
-
+    color: #ffa4d0;
+    text-shadow: 3px 3px 7px #3d3b7a;
 }
 text{
     text-align: center;
